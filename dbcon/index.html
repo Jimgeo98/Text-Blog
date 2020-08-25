@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Form</title>
+        <meta name="description" content="...">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="form">
+
+            <form name="form" method="POST" action="connect.php" target="_blank">
+
+                <h1>Sing up</h1>
+                <div>
+                    <label for="name">Name :</label>
+                    <input type="text" id="name" class="form-control" placeholder="Name" name="name" required>
+                </div>
+                <div>
+                    <br>
+                    <label for="password">Password :</label>
+                    <input type="password" id="password" class="form-control" placeholder="Password" name="password" required>
+                </div>
+                <div>
+                    <br>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+
+            </form>
+        </div>
+
+    </body>
+</html>
