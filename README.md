@@ -1,2 +1,2 @@
-# Text-Blog
-It's a Laravel PHP Text Blog
+# DataBase Connection
+It's PHP DataBase Connection to MySQL table
